@@ -1,0 +1,89 @@
+// results-qismi
+
+.results__inner{
+   padding-top: 145px;
+   padding-bottom: 145px;
+}
+
+.results__inner__card{
+   justify-content: space-between;
+   display: flex;
+   margin-top: 37px;
+}
+
+.results__inner__title{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+color: #2B2A28;
+}
+
+.results__inner__title1{
+   margin-top: 145px;
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+color: #2B2A28;
+}
+
+.results__inner__card__text__btn{
+   width: 114px;
+   height: 34px;
+   border: none;
+   background: #CB8734;
+border-radius: 4px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 12px;
+color: #FFFFFF;
+margin-left: 21px;
+}
+
+.results__inner__card__text{
+   padding-top: 20px;
+   width: 365px;
+   background-image: url(../../img/birinch.png);
+   background-repeat: no-repeat;
+}
+
+.results__inner__card__box{
+   padding-top: 20px;
+   width: 365px;
+   background-image: url(../../img/ikkinchi.png);
+   background-repeat: no-repeat;
+}
+
+.results__inner__card__show{
+   padding-top: 20px;
+   width: 365px;
+   background-image: url(../../img/uchinchi.png);
+   background-repeat: no-repeat;
+}
+
+.results__inner__card__text__title{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+margin-top: 233px;
+width: 300px;
+color: #2B2A28;
+}
+
+.results__inner__card__text__copy{
+   margin-top: 15px;
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 30px;
+width: 340px;
+color: #2B2A28;
+}

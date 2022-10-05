@@ -1,0 +1,81 @@
+// about-qismi
+
+.about__inner {
+   width: 1170px;
+}
+
+.about__inner {
+   padding-left: auto;
+   padding-right: auto;
+}
+
+.about__inner__card {
+   background-image: url(../../img/aleksandir.png);
+   background-repeat: no-repeat;
+   background-position: calc(50%);
+   height: 496px;
+   padding-top: 229px;
+   width: 405px;
+}
+
+.about__inner {
+   background-image: url(../../img/about-bacgraund-img.png);
+   background-repeat: no-repeat;
+   background-position: calc(50%)calc(50% + 25px);
+   padding-left: 375px;
+   padding-right: 374px;
+}
+
+.about__inner__card__imgs {
+   margin-left: 313px;
+}
+
+.about__inner__card__copy {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 18px;
+   width: 134px;
+   margin-left: 278px;
+   margin-top: 8px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.about__inner__text {
+   width: 570px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+   border-radius: 8px;
+   padding-top: 41px;
+   padding-bottom: 35px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 43px;
+   padding-right: 51px;
+   display: flex;
+   transform: translateY(-100px)
+}
+
+.about__inner__text__title {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+   margin-left: 22px;
+   color: #2B2A28;
+}
+
+.about__inner__text__copy {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 26px;
+   width: 380px;
+   margin-top: 8px;
+   margin-left: 22px;
+   color: #2B2A28;
+}

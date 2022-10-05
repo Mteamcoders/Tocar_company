@@ -1,0 +1,160 @@
+// header-qismi
+
+.header__inner {
+   padding-top: 22px;
+   padding-bottom: 37px;
+}
+
+.logo-imgs {
+   margin-top: 13px;
+}
+
+.header {
+   background: #FFFBF7;
+}
+
+.header__inner__text {
+   display: flex;
+   width: 1170px;
+   justify-content: space-between;
+}
+
+.header__inner__card__copy {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 18px;
+   width: 210px;
+   color: #2B2A28;
+}
+
+.header__inner__card__copy2 {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 18px;
+   color: #2B2A28;
+   margin-bottom: 4px;
+}
+
+.header__inner__card__copy__box {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 16px;
+   color: #2B2A28;
+   text-decoration: none;
+}
+
+.header__inner__card:nth-child(4) {
+   margin-top: 15px;
+}
+
+.header__inner__card:nth-child(3) {
+   margin-top: 15px;
+}
+
+.header__inner__card:nth-child(2) {
+   margin-top: 22px;
+}
+
+.header__inner__card__copy__next {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+   color: #2B2A28;
+   margin-top: 7px;
+   text-align: end;
+}
+
+.header__inner__card__btn {
+   background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+   box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+   border-radius: 4px;
+   border: none;
+   width: 160px;
+   height: 46px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.header__inner__card__show {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 18px;
+   text-align: center;
+   margin-top: 7px;
+   letter-spacing: 0.08em;
+   color: #2B2A28;
+}
+
+.tillar {
+   margin-top: 15px;
+}
+
+.header__inner__box__card {
+   background: #3D1E19;
+   box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2);
+   border-radius: 8px;
+   width: 620px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   padding-left: 62px;
+   padding-right: 60px;
+   justify-content: space-between;
+   display: flex;
+   margin-top: 22px;
+   background-image: url(../../img/Vector-chiziq.svg), url(../../img/Vector-chiziq.svg);
+   background-repeat: no-repeat;
+   background-position: calc(50% - 126px), calc(50% + 126px);
+}
+
+.header__inner__box__card__span__link {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 146.19%;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.header__inner__box{
+   display: flex;
+}
+
+.header__inner__box__list{
+   list-style-type: none;
+   display: flex;
+   margin-top: 50px;
+   margin-left: 85px;
+}
+
+.header__inner__box__list__item{
+   margin-left: 100px;
+}
+
+.header__inner__box__list__item:nth-child(1){
+   margin-left: 0px;
+}
+
+.header__inner__box__list__item__link{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 146.19%;
+text-decoration: none;
+color: #2B2A28;
+}

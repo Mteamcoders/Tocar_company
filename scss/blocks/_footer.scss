@@ -1,0 +1,185 @@
+.footer {
+   background: #FFFBF7;
+}
+
+.footer__inner {
+   padding-top: 89px;
+   padding-bottom: 30px;
+   margin-bottom: 50px;
+}
+
+.footer__inner__hr {
+   background: #E7D8C7;
+   border: 1px solid #E7D8C7;
+   margin-top: 60px;
+}
+
+.footer__inner__copy {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 22px;
+   margin-top: 31px;
+   text-align: center;
+   color: #2B2A28;
+   opacity: 0.7;
+}
+
+.footer__inner__card {
+   display: flex;
+}
+
+.footer__inner__card__text__name {
+   width: 620px;
+   background: #3D1E19;
+   box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.1);
+   border-radius: 8px;
+   padding-left: 62px;
+   padding-right: 60px;
+   padding-top: 25px;
+   padding-bottom: 24px;
+   display: flex;
+   justify-content: space-between;
+   background-image: url(../../img/Vector-chiziq.svg), url(../../img/Vector-chiziq.svg);
+   background-repeat: no-repeat;
+   background-position: calc(50% - 127px), calc(50% + 122px);
+}
+
+.footer__inner__card__text__name__link {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 146.19%;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.footer__inner__card__text__list {
+   display: flex;
+   list-style-type: none;
+   margin-top: 39px;
+}
+
+.footer__inner__card__text__list__item {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 22px;
+   color: #2B2A28;
+   line-height: 30px;
+}
+
+.footer__inner__card__text__list__item:nth-child(2) {
+   margin-left: 98px;
+}
+
+.footer__inner__card__text__list__item:nth-child(3) {
+   margin-left: 98px;
+}
+
+.footer__inner__card__text__both {
+   display: flex;
+   padding-left: 75px;
+}
+
+.footer__inner__card__text__both__copy {
+   margin-top: 25px;
+}
+
+.footer__inner__card__text__both__copy:nth-child(2) {
+   margin-top: 25px;
+   margin-left: 60px;
+}
+
+.footer__inner__card__text__both__copy__link {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 146.19%;
+   text-decoration: none;
+   color: #2B2A28;
+}
+
+.footer__inner__card__text__btn {
+   width: 160px;
+   height: 46px;
+   background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+   box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+   border-radius: 4px;
+   border: none;
+   margin-top: 13px;
+   margin-left: 65px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.footer__imgs{
+   margin-left: 75px;
+   margin-top: 60px;
+}
+
+.footer__inner__card__text__show{
+   display: flex;
+}
+
+.footer__inner__card__text__show__copy{
+   margin-top: 60px;
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+width: 200px;
+color: #2B2A28;
+margin-left: 45px;
+}
+
+.footer__inner__card__text__copy{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+margin-top: 36px;
+margin-left: 75px;
+color: #2B2A28;
+}
+
+a{
+   text-decoration: none;
+}
+
+.footer__logo__img{
+   margin-left: 75px;
+   margin-top: 10px;
+   width: 170px;
+}
+
+.footer__logo__img__tel{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 16px;
+margin-top: 33px;
+color: #2B2A28;
+}
+
+.footer__inner__copy__copy{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin-top: 8px;
+text-align: end;
+color: #2B2A28;
+}

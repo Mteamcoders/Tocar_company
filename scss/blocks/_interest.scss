@@ -1,0 +1,85 @@
+.interest__inner {
+   padding-bottom: 145px;
+}
+
+.interest__inner__card {
+   display: flex;
+   justify-content: space-between;
+   width: 1170px;
+}
+
+.interest__inner__card__text {
+   width: 270px;
+}
+
+.interest__inner__card__text__hr {
+   background: #CB8734;
+   border-radius: 8px;
+   margin-top: 29px;
+   border: solid 2px #CB8734;
+}
+
+.interest__inner__card__text__copy {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 30px;
+   color: #CB8734;
+}
+
+.interest__inner__card__text__copy__span {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 30px;
+   color: #CB8734;
+}
+
+.interest__inner__card__text__copy__s {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 30px;
+   color: #CB8734;
+   margin-left: 8px;
+}
+
+.interest__inner__card__text__next {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 30px;
+   width: 231px;
+   margin-top: 18px;
+   color: #2B2A28;
+}
+
+.interest__inner__box {
+   padding-top: 40px;
+   margin-left: 350px;
+   display: flex;
+}
+
+.interest__inner__box__btn {
+   background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+   box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+   border-radius: 4px;
+   width: 280px;
+   border: none;
+   height: 66px;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.interest__inner__box__link {
+   margin-left: 44px;
+   margin-top: 20px;
+}

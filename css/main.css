@@ -1,0 +1,1149 @@
+/* gentium-book-plus-regular - latin */
+@font-face {
+  font-family: "Gentium Book Plus";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gentium-book-plus-v1-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/gentium-book-plus-v1-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/gentium-book-plus-v1-latin-regular.woff2") format("woff2"), url("../fonts/gentium-book-plus-v1-latin-regular.woff") format("woff"), url("../fonts/gentium-book-plus-v1-latin-regular.ttf") format("truetype"), url("../fonts/gentium-book-plus-v1-latin-regular.svg#GentiumBookPlus") format("svg"); /* Legacy iOS */
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1210px;
+}
+
+.header__inner {
+  padding-top: 22px;
+  padding-bottom: 37px;
+}
+
+.logo-imgs {
+  margin-top: 13px;
+}
+
+.header {
+  background: #FFFBF7;
+}
+
+.header__inner__text {
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+}
+
+.header__inner__card__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  width: 210px;
+  color: #2B2A28;
+}
+
+.header__inner__card__copy2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #2B2A28;
+  margin-bottom: 4px;
+}
+
+.header__inner__card__copy__box {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: #2B2A28;
+  text-decoration: none;
+}
+
+.header__inner__card:nth-child(4) {
+  margin-top: 15px;
+}
+
+.header__inner__card:nth-child(3) {
+  margin-top: 15px;
+}
+
+.header__inner__card:nth-child(2) {
+  margin-top: 22px;
+}
+
+.header__inner__card__copy__next {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2B2A28;
+  margin-top: 7px;
+  text-align: end;
+}
+
+.header__inner__card__btn {
+  background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  border: none;
+  width: 160px;
+  height: 46px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.header__inner__card__show {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 7px;
+  letter-spacing: 0.08em;
+  color: #2B2A28;
+}
+
+.tillar {
+  margin-top: 15px;
+}
+
+.header__inner__box__card {
+  background: #3D1E19;
+  box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2);
+  border-radius: 8px;
+  width: 620px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 62px;
+  padding-right: 60px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 22px;
+  background-image: url(../../img/Vector-chiziq.svg), url(../../img/Vector-chiziq.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 126px), calc(50% + 126px);
+}
+
+.header__inner__box__card__span__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__inner__box {
+  display: flex;
+}
+
+.header__inner__box__list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+.header__inner__box__list__item {
+  margin-left: 100px;
+}
+
+.header__inner__box__list__item:nth-child(1) {
+  margin-left: 0px;
+}
+
+.header__inner__box__list__item__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  text-decoration: none;
+  color: #2B2A28;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 126px;
+}
+
+.hero__inner__card__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 20px;
+  color: #828282;
+}
+
+.hero__inner__card__title {
+  margin-top: 30px;
+}
+
+.hero__inner__card__title__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  text-decoration: none;
+  color: #2B2A28;
+}
+
+.hero__inner__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  width: 460px;
+  color: #2B2A28;
+  margin-top: 79px;
+}
+
+.hero__inner__text__span__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  margin-left: 12px;
+  color: #CB8734;
+}
+
+.hero__inner__text__card__imgs {
+  text-decoration: none;
+  margin-left: 226px;
+}
+
+.hero__inner__text__span {
+  margin-top: 7px;
+}
+
+.hero__inner__text__card {
+  display: flex;
+}
+
+.hero__inner__text {
+  padding-top: 81px;
+}
+
+.hero__inner__text__imgs {
+  margin-top: 30px;
+}
+
+.about__inner {
+  width: 1170px;
+}
+
+.about__inner {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.about__inner__card {
+  background-image: url(../../img/aleksandir.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 496px;
+  padding-top: 229px;
+  width: 405px;
+}
+
+.about__inner {
+  background-image: url(../../img/about-bacgraund-img.png);
+  background-repeat: no-repeat;
+  background-position: 50% calc(50% + 25px);
+  padding-left: 375px;
+  padding-right: 374px;
+}
+
+.about__inner__card__imgs {
+  margin-left: 313px;
+}
+
+.about__inner__card__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  width: 134px;
+  margin-left: 278px;
+  margin-top: 8px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about__inner__text {
+  width: 570px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 8px;
+  padding-top: 41px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 43px;
+  padding-right: 51px;
+  display: flex;
+  transform: translateY(-100px);
+}
+
+.about__inner__text__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 22px;
+  color: #2B2A28;
+}
+
+.about__inner__text__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  width: 380px;
+  margin-top: 8px;
+  margin-left: 22px;
+  color: #2B2A28;
+}
+
+.interest__inner {
+  padding-bottom: 145px;
+}
+
+.interest__inner__card {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+}
+
+.interest__inner__card__text {
+  width: 270px;
+}
+
+.interest__inner__card__text__hr {
+  background: #CB8734;
+  border-radius: 8px;
+  margin-top: 29px;
+  border: solid 2px #CB8734;
+}
+
+.interest__inner__card__text__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 30px;
+  color: #CB8734;
+}
+
+.interest__inner__card__text__copy__span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  color: #CB8734;
+}
+
+.interest__inner__card__text__copy__s {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  color: #CB8734;
+  margin-left: 8px;
+}
+
+.interest__inner__card__text__next {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  width: 231px;
+  margin-top: 18px;
+  color: #2B2A28;
+}
+
+.interest__inner__box {
+  padding-top: 40px;
+  margin-left: 350px;
+  display: flex;
+}
+
+.interest__inner__box__btn {
+  background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  width: 280px;
+  border: none;
+  height: 66px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.interest__inner__box__link {
+  margin-left: 44px;
+  margin-top: 20px;
+}
+
+.design {
+  background: #FFFBF7;
+}
+
+.design__inner {
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+
+.design__inner__card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 8px;
+  padding-top: 56px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+.design__inner__box {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 0px 40px 0px 0px;
+  padding-top: 59px;
+  padding-left: 80px;
+  padding-bottom: 68px;
+  margin-top: 60px;
+  background-image: url(../../img/odam-rasmi.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 368px);
+}
+
+.design__inner__card__show {
+  display: flex;
+  padding-top: 33px;
+  justify-content: space-between;
+}
+
+.design__inner__card__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2B2A28;
+}
+
+.design__inner__card__text__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #6d6c6a;
+}
+
+.design__inner__card__text__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17x;
+  line-height: 30px;
+  color: #2B2A28;
+  margin-top: 20px;
+}
+
+.design__inner__box__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  width: 378px;
+  color: #2B2A28;
+}
+
+.design__inner__box__text__next {
+  background: #FFFFFF;
+  width: 390px;
+  border: 1px solid #E7D8C7;
+  border-radius: 4px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+  padding-left: 21px;
+  margin-top: 24px;
+}
+
+.design__inner__box__text__next {
+  display: flex;
+}
+
+.strelka {
+  padding-left: 6px;
+}
+
+.design__inner__box__text__next__copy {
+  margin-left: 18px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 4px;
+  color: #828282;
+}
+
+.design__inner__box__text {
+  display: flex;
+}
+
+.design__inner__box__text__btn {
+  background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  width: 200px;
+  height: 58px;
+  border: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 23px;
+  margin-left: 15px;
+}
+
+.design__inner__box__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 31px;
+  color: #2B2A28;
+}
+
+.design__inner__box__copy__span {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 31px;
+  color: #CB8734;
+}
+
+.results__inner {
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+
+.results__inner__card {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 37px;
+}
+
+.results__inner__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2B2A28;
+}
+
+.results__inner__title1 {
+  margin-top: 145px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2B2A28;
+}
+
+.results__inner__card__text__btn {
+  width: 114px;
+  height: 34px;
+  border: none;
+  background: #CB8734;
+  border-radius: 4px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #FFFFFF;
+  margin-left: 21px;
+}
+
+.results__inner__card__text {
+  padding-top: 20px;
+  width: 365px;
+  background-image: url(../../img/birinch.png);
+  background-repeat: no-repeat;
+}
+
+.results__inner__card__box {
+  padding-top: 20px;
+  width: 365px;
+  background-image: url(../../img/ikkinchi.png);
+  background-repeat: no-repeat;
+}
+
+.results__inner__card__show {
+  padding-top: 20px;
+  width: 365px;
+  background-image: url(../../img/uchinchi.png);
+  background-repeat: no-repeat;
+}
+
+.results__inner__card__text__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 233px;
+  width: 300px;
+  color: #2B2A28;
+}
+
+.results__inner__card__text__copy {
+  margin-top: 15px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  width: 340px;
+  color: #2B2A28;
+}
+
+.footer {
+  background: #FFFBF7;
+}
+
+.footer__inner {
+  padding-top: 89px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.footer__inner__hr {
+  background: #E7D8C7;
+  border: 1px solid #E7D8C7;
+  margin-top: 60px;
+}
+
+.footer__inner__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 22px;
+  margin-top: 31px;
+  text-align: center;
+  color: #2B2A28;
+  opacity: 0.7;
+}
+
+.footer__inner__card {
+  display: flex;
+}
+
+.footer__inner__card__text__name {
+  width: 620px;
+  background: #3D1E19;
+  box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.1);
+  border-radius: 8px;
+  padding-left: 62px;
+  padding-right: 60px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../img/Vector-chiziq.svg), url(../../img/Vector-chiziq.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 127px), calc(50% + 122px);
+}
+
+.footer__inner__card__text__name__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__inner__card__text__list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 39px;
+}
+
+.footer__inner__card__text__list__item {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2B2A28;
+  line-height: 30px;
+}
+
+.footer__inner__card__text__list__item:nth-child(2) {
+  margin-left: 98px;
+}
+
+.footer__inner__card__text__list__item:nth-child(3) {
+  margin-left: 98px;
+}
+
+.footer__inner__card__text__both {
+  display: flex;
+  padding-left: 75px;
+}
+
+.footer__inner__card__text__both__copy {
+  margin-top: 25px;
+}
+
+.footer__inner__card__text__both__copy:nth-child(2) {
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.footer__inner__card__text__both__copy__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  text-decoration: none;
+  color: #2B2A28;
+}
+
+.footer__inner__card__text__btn {
+  width: 160px;
+  height: 46px;
+  background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  border: none;
+  margin-top: 13px;
+  margin-left: 65px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.footer__imgs {
+  margin-left: 75px;
+  margin-top: 60px;
+}
+
+.footer__inner__card__text__show {
+  display: flex;
+}
+
+.footer__inner__card__text__show__copy {
+  margin-top: 60px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  width: 200px;
+  color: #2B2A28;
+  margin-left: 45px;
+}
+
+.footer__inner__card__text__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 36px;
+  margin-left: 75px;
+  color: #2B2A28;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer__logo__img {
+  margin-left: 75px;
+  margin-top: 10px;
+  width: 170px;
+}
+
+.footer__logo__img__tel {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  margin-top: 33px;
+  color: #2B2A28;
+}
+
+.footer__inner__copy__copy {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 8px;
+  text-align: end;
+  color: #2B2A28;
+}/*# sourceMappingURL=main.css.map */

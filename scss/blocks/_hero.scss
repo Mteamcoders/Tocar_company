@@ -1,0 +1,74 @@
+
+// hero-qismi
+.hero__inner{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 126px;
+}
+
+.hero__inner__card__copy{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+margin-top: 20px;
+color: #828282;
+}
+
+.hero__inner__card__title{
+   margin-top: 30px;
+}
+
+.hero__inner__card__title__link{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 58px;
+text-decoration: none;
+color: #2B2A28;
+}
+
+.hero__inner__copy{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+width: 460px;
+color: #2B2A28;
+margin-top: 79px;
+}
+
+.hero__inner__text__span__link{
+   font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+text-decoration: none;
+margin-left: 12px;
+color: #CB8734;
+}
+
+.hero__inner__text__card__imgs{
+   text-decoration: none;
+   margin-left: 226px;
+}
+
+.hero__inner__text__span{
+   margin-top: 7px;
+}
+
+.hero__inner__text__card{
+   display: flex;
+}
+
+.hero__inner__text{
+   padding-top: 81px;
+}
+
+.hero__inner__text__imgs{
+   margin-top: 30px;
+}
